@@ -1,0 +1,37 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.exe
+
+# HDF disk images (large, contain ROMs)
+*.hdf
+
+# ROM blobs (copyrighted, must be extracted by user)
+source/build/
+
+# Generated snapshots / debug output
+*.ppm
+*.png
+snap*/
+*.log
+
+# Built binary
+PowerDriftLive
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# AI agent working dirs
+.claude/
+.codex/
+.agents/PowerDriftLive
+source/build/
